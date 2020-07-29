@@ -1,0 +1,390 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body
+{
+    direction: rtl;
+}
+
+.nav-item
+{
+    text-align:left; 
+}
+
+.Rheader img
+{
+   
+    height:500px;
+    
+    
+    
+}
+.Lheader
+
+{
+    background-image:url(../ipda3/imgs/header-side.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    height:300px;
+
+}
+
+.sec1 img
+{
+   
+    height:500px;
+}
+
+
+
+.OwlCarouselBg
+{
+    
+  background-image: url(../ipda3/imgs/we-offer.png);
+    padding:50px;
+    
+    
+ 
+}
+
+.item
+{
+    background-color:#FFF;
+    border-radius:30px;
+    overflow:inherit;
+    margin:15px;
+    padding:15px;
+}
+.item p,
+.item h4
+{
+    text-align: center;
+}
+
+
+
+.owl-carousel
+{
+    margin:auto;
+}
+
+.test
+{
+    width:100px;
+    height:100px;
+    background-color:aqua;
+}
+
+
+
+hr
+{
+    width: 50px;
+   border-top: 2px solid #77D2FF;
+    
+}
+
+.portfolio-bg
+{
+    background-image:url(../ipda3/imgs/bg30-Ar1web.gif );
+}
+
+.images
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.p-img,
+.OurWorksimg
+
+{
+    background-color:#fff;
+    border-radius:30px;
+    text-align: center;
+    width:70%;
+}
+.p-img img,
+.OurWorksimg img,
+.OurArticlesimg img
+{
+    width:100%;
+    //height:50%;
+   
+    border-radius:30px;
+}
+
+.p-img p,
+.OurWorksimg p
+{
+    padding:10px
+}
+
+#img1
+{
+    
+    background-color:#FFF;
+    width:50%;
+    height:50%;
+    text-align: center;
+    border-radius:20px;
+   
+   
+}
+
+#img1 img {
+ margin:auto;   
+width:150px;
+    height:150px;
+   
+    padding:20px
+}
+.nav-btn
+{
+    display:flex;
+    flex-direction: row;
+   margin:30px;
+   
+    
+}
+.OurClientsBg
+{
+    background-image: url(../ipda3/imgs/our-client-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+
+.carousel-item 
+{
+    
+    margin-right: 300px;
+   
+}
+
+#one img
+{
+    display:flex;
+    height:300px;
+    width:400px;
+    margin:auto;
+    
+  
+    
+}
+
+
+#one h4  ,
+#details h4,
+.proj-imgs h4m,
+.articlesHeader,
+.OurArticles2 h4,
+
+
+{
+    border-right:3px solid #77D2FF;
+    
+     margin:10px 20px 40px;
+}
+
+#disc
+{
+  
+    background-image:url(../ipda3/imgs/details-bg.png);
+
+  
+    background-size:100% 100%;
+    padding:30px;
+    
+  
+}
+
+#disc h4
+{
+    margin:auto;
+    text-align:center;
+}
+
+
+.card-carousel .my-card
+{
+    background:none;
+}
+
+.project-carsouel
+{
+    
+    overflow:inherit;
+      
+}
+.card-carousel
+{
+    
+ 
+   top:-200px;
+    height: 700px;
+}
+
+.footerBg
+
+{
+
+    background-image: url(../ipda3/imgs/footer.jpg);
+    background-size:100% 100%;
+    height:400px; 
+    position: relative;
+  
+    
+   
+}
+
+
+
+.footerBg a
+{
+  color:#FFF;
+}
+
+.Rimg img
+{
+  position:absolute;
+   right:300px;
+    top:50px;
+    width:40%;
+}
+.Limg 
+{
+     position:absolute;
+     //left:10px;
+     top:100px;
+     right: 800px;
+}
+
+
+
+.OurWorks h4
+{     position:relative;
+      border-right:3px solid #77D2FF;
+      top:20px;
+      margin-bottom: 50px;
+}
+.OurWorksBg
+{
+    
+    background-image: url(../ipda3/imgs/bg30-Ar1web.gif);
+   
+  
+    
+    
+}
+.OurWorks-control,
+.OurArticles-control
+{
+     position:relative;
+    right:60px;
+}
+
+.pagination-control
+{
+  margin-right: 50%;
+    width:30%;
+ 
+    
+}
+
+.pagination 
+{
+    padding-right: 600;
+    padding-bottom:20px;
+    margin-top:20px;
+    margin-bottom: 0;
+    
+  
+}
+
+.OurArticles
+{
+    background-image:url(../ipda3/imgs/articles.jpg);
+    background-size:contain;
+
+    background-repeat:no-repeat;
+    
+  
+    
+}
+
+
+
+.OurArticlesimg
+{
+    background-color:#fff;
+    border-radius:30px;
+    text-align: center;
+    width:70%;
+   margin-bottom:30px;
+    box-shadow: 1px 1px  10px #888;
+ 
+  
+}
+
+.OurArticlesimg button
+{
+    border-radius:40px;
+    margin:10px;
+    padding-left: 20px;
+    padding-right:20px;
+    position:relative;
+    left:150px;
+}
+.OurArticles2
+{
+      background-image: url(../ipda3/imgs/bg30-Ar1web.gif);
+    margin:0;
+}
+.OurArticles2-control
+{
+    width:700px;
+    height:800px;
+   margin-right:200px;
+}
+
+.OurArticles2Bg img
+{
+    width:30%;
+    height:30%;
+   margin-right: 30%;
+}
+
+.OurArticles2Bg p
+{
+  
+    padding:20px;
+    text-align:center;
+    line-height: 3em;
+    
+}
+
+.OurArticles2Bg
+{
+    background-color: #FFF;
+    height:900px;
+    width:60%;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px #888;
+    padding:5px;
+    margin:auto;
+   // margin-top:30px;
+   // margin-bottom: 30px;
+    overflow: inherit;
+}
+
+.OurArticles2 h4
+
+{
+    border-right:3px solid #77D2FF;
+    
+     margin:10px 20px 40px;
+}
+
