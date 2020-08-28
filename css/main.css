@@ -259,7 +259,8 @@ width:150px;
      position:absolute;
      //left:10px;
      top:100px;
-     right: 800px;
+     text-align: center;
+     left:0px;
 }
 
 
