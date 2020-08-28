@@ -55,6 +55,7 @@ body
     overflow:inherit;
     margin:15px;
     padding:15px;
+    height: 400px;  //d 3shan kolo yb2a f height wa7ed 28-8-2020
 }
 .item p,
 .item h4
